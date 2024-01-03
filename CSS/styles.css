@@ -1,0 +1,130 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.hieu{
+	max-width: 1000px;
+	margin: 0 auto;
+}.hieu>header{
+	background-image: url('../images/anh-header.jpg');
+	background-size: 100% 100%;
+	height: 0px;
+	padding-bottom: 20%;
+	position: relative;
+}
+header>.login>ul>li {
+	font-size: 10px;
+    float: left;
+    display: block;
+    line-height: 40px;
+    padding: 0 8px;
+    font-variant: small-caps;
+    color: white;}
+header>.login>ul>li>a {
+    text-decoration: none;
+}
+header>.login>ul {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    margin-top: 0px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.hieu>nav>ul{
+	margin: 0px;
+	padding: 0px;
+	line-height: 40px;
+	width: 100%;
+	background-color: orangered;
+	text-align: center;
+	font-variant: small-caps;
+
+}
+.hieu>nav>ul>li{
+	display: inline-block;
+	position: relative;
+}
+.hieu>nav>ul>li>a{
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.hieu>nav>ul ul a{
+	display: block;
+	line-height: 30px;
+	color: white;
+	font-variant: small-caps;
+	font-style: larger;
+	padding: 0 10px;
+}
+.hieu>nav>ul>li>a:hover{
+	color: yellow;
+	margin: 0 10px;
+	text-decoration: none;
+
+}
+.hieu>article{
+	min-height: 400px;
+	width: 75%;
+	background-color: white;
+	float: left;
+}
+.hieu>article>h4{
+	max-width: 750px;
+	padding-bottom: 1%;
+	margin: 5px;
+	border-radius: 3px;
+}
+.hieu>article>p{
+	font-size: 14px;
+}
+.hieu>article>a{
+	text-decoration: none;
+	color: black;
+}
+.hieu>article>a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.hieu .nd img {
+    margin: 0 5px;
+    width: 150px;
+}
+.hieu>aside{
+	height: 600px;
+	width: 25%;
+	background-color: #35E121;
+	float: right;
+}
+.hieu>aside>a{
+	color: black;
+	text-decoration: none;
+
+}
+.hieu>aside>a:hover{
+	color: red;
+
+}
+.hieu1>img {
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #fbff00;
+    box-shadow: inset 0 0 5px blue;
+}
+
+.hieu1>img:hover {
+    box-shadow: inset 0 0 20px red;
+    background-color: aqua;
+}
+.hieu>footer{
+	width: 1000px;
+	height: 40px;
+	background-color: #2dacd7;
+	text-align: center;
+	clear: both;
+}
